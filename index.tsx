@@ -7,7 +7,7 @@
 const products = [
   {
     name: 'Bolo de Morango',
-    imageUrl: './images/bolo-morango.png'
+    imageUrl: 'images/bolo-morango.png'
   },
   {
     name: 'Cupcakes de Baunilha',
@@ -23,11 +23,11 @@ const products = [
   },
    {
     name: 'Donuts Decorados',
-    imageUrl: './images/donuts.png'
+    imageUrl: 'images/donuts.png'
   },
   {
     name: 'Bolo Red Velvet',
-    imageUrl: './images/velvet.png'
+    imageUrl: 'images/velvet.png'
   }
 ];
 
