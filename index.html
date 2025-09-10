@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KerBolo | Bolos e Doces Artesanais</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script type="module" src="index.tsx"></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <h1 class="logo">Ker-Bolo</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#products">Produtos</a></li>
+          <li><a href="#tips">Dicas</a></li>
+          <li><a href="#how-to-buy">Como Comprar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1987&auto=format&fit=crop');">
+        <div class="hero-content">
+          <h2>Feito com Amor, para Você</h2>
+          <p>Experimente a doçura que derrete na boca.</p>
+          <a href="#products" class="btn">Ver Delícias</a>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=1987&auto=format&fit=crop');">
+        <div class="hero-content">
+          <h2>A Felicidade tem Sabor</h2>
+          <p>Nossos doces são perfeitos para qualquer ocasião.</p>
+          <a href="#products" class="btn">Ver Delícias</a>
+        </div>
+      </div>
+       <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=1964&auto=format&fit=crop');">
+        <div class="hero-content">
+          <h2>Cada Fatia, Uma Celebração</h2>
+          <p>Bolos artesanais para momentos inesquecíveis.</p>
+          <a href="#products" class="btn">Ver Delícias</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products-section">
+      <div class="container">
+        <h2 class="section-title">Nossas Tentações</h2>
+        <div id="products-grid" class="products-grid">
+          <!-- Os cards de produtos serão inseridos aqui pelo TypeScript -->
+        </div>
+      </div>
+    </section>
+
+    <section id="tips" class="content-section alt-bg">
+        <div class="container">
+          <h2 class="section-title">Dicas Doces da Ker-Bolo</h2>
+          <div class="tips-grid">
+            <div class="tip-card">
+              <div class="tip-icon">🎂</div>
+              <h3>Armazenamento Perfeito</h3>
+              <p>Para manter seus bolos frescos por mais tempo, guarde-os em um recipiente hermético em temperatura ambiente. Evite a geladeira, que pode ressecá-los!</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-icon">✨</div>
+              <h3>Glacê Brilhante</h3>
+              <p>Quer um glacê com brilho extra? Adicione uma colher de chá de xarope de milho à sua receita. O resultado é um acabamento profissional e delicioso.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-icon">☕</div>
+              <h3>Combinação Ideal</h3>
+              <p>Um macaron de pistache combina perfeitamente com um café expresso, enquanto um cupcake de red velvet é o par ideal para um copo de leite gelado.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    <section id="how-to-buy" class="content-section">
+        <div class="container">
+          <h2 class="section-title">Como Comprar</h2>
+          <div class="steps-container">
+            <div class="step">
+              <div class="step-icon">1</div>
+              <h3>Escolha seus Doces</h3>
+              <p>Navegue pela nossa seleção e escolha suas delícias favoritas.</p>
+            </div>
+            <div class="step">
+              <div class="step-icon">2</div>
+              <h3>Adicione ao Carrinho</h3>
+              <p>Clique em "Comprar Agora" para adicionar os itens ao seu pedido.</p>
+            </div>
+            <div class="step">
+              <div class="step-icon">3</div>
+              <h3>Finalize e Receba</h3>
+              <p>Complete seu pedido e aguarde suas doçuras chegarem fresquinhas!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  </main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="logo.png" alt="Logo da marca" class="logo">
+          <p>
+           <i class="fab fa-whatsapp"></i>Telefone: (11) 96639-7853
+          <a href="https://wa.me/551112345678" target="_blank">
+          </a>
+        </p>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> Endereço: Rua Recanto do Sol n°1
+        </p>
+        <p>
+          <i class="fas fa-envelope"></i> E-mail: <a href="mailto:exemplo@exemplo.com">exemplo@exemplo.com</a>
+        </p>
+      </div>
+      <div class="column" style="text-align: center;">
+        <h2 style="margin-bottom: 20px;">Redes Sociais</h2>
+        <ul class="social-media">
+          <li>
+            <a href="#" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="column">
+        <h2>Newsletter</h2>
+        <p>Inscreva-se em nossa newsletter para receber atualizações e promoções exclusivas!</p>
+        <form>
+          <input class="form-item" type="email" placeholder="Seu e-mail">
+          <button class="btn">Inscrever-se</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col2">
+        <p>&copy; 2024 Ker-Bolo. Todos os direitos reservados.</p>
+        <div class="create">
+          <p>Desenvolvido por: Kamak Solutions & Technologies</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
