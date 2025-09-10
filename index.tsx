@@ -27,7 +27,7 @@ const products = [
   },
   {
     name: 'Bolo Red Velvet',
-    imageUrl: 'images/velvet.png'
+    imageUrl: 'https://images.unsplash.com/photo-1714386148315-2f0e3eebcd5a?q=80&w=436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   }
 ];
 
