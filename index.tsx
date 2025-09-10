@@ -7,7 +7,7 @@
 const products = [
   {
     name: 'Bolo de Morango',
-    imageUrl: 'images/bolo-morango.png'
+    imageUrl: 'https://images.unsplash.com/photo-1650419424455-d0513aaf0dd6?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     name: 'Cupcakes de Baunilha',
@@ -19,11 +19,11 @@ const products = [
   },
   {
     name: 'Torta de Chocolate',
-    imageUrl: './images/torta-choco.png'
+    imageUrl: 'https://plus.unsplash.com/premium_photo-1723507349136-09a2ee63721d?q=80&w=831&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
    {
     name: 'Donuts Decorados',
-    imageUrl: 'images/donuts.png'
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     name: 'Bolo Red Velvet',
